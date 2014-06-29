@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>iText in Action 2E: web applications</title>
+</head>
+<body>
+
+<form method="POST" action="/ServletPDF/obituario.pdf">
+	<h1>ID Aviso:</h1>
+	<textarea name="idAviso">293546</textarea><br/>
+    <h1>Persona que publica:</h1>
+	<textarea name="avisoObituario.preEncabezado">Familia Perez Perez</textarea><br/>
+	<h1>Encabezado:</h1>
+	<textarea name="avisoObituario.encabezadoPrincipal">Tenemos el penoso deber de participar el fallecimiento de Pedro Perez</textarea><br/>
+	<h1>Fallecido:</h1>
+	<textarea name="avisoObituario.nombreFallecido">Pedro Perez</textarea><br/>
+	<h1>QEPD:</h1>
+	<textarea name="avisoObituario.encabezadoSecundario">(Q.E.P.D)</textarea><br/>
+	<h1>Texto::</h1>
+	<textarea name="avisoObituario.texto">asjhdjaskdaksd asjkdhlkasdlkal khasdjkhashd, jahsdjhasjhdahs</textarea><br/>
+	<h1>Pie:</h1>
+	<textarea name="avisoObituario.pie">Paz a su alma</textarea><br/>
+	<h1>Fecha:</h1>
+	<textarea name="fecha">23 de Agosto de 2012</textarea><br/>
+	<h1>Orla:</h1>
+	<textarea name="orla">orla1.jpg</textarea><br/>
+	<h1>Modulo:</h1>
+	<textarea name="pageSize">6</textarea><br/>
+	<h1>Tipo Aviso:</h1>
+	<textarea name="type">obituario</textarea><br/>
+	<h1>Subtipo Aviso:</h1>
+	<textarea name="subtype">esq</textarea><br/>
+	<h1>Imagen predefinida:</h1>
+	<textarea name="imgHeader">cruz1_1.jpg</textarea><br/>
+	<h1>logo o foto:</h1>
+	<textarea name="logo">/manduca10/netapp/clasificados/proyectos/clasificados/root/imagenes/avisosespeciales/obituarios/prueba.jpg</textarea><br/>
+	<h1>Preview or Save?:</h1>
+	<textarea name="preOrSave">preview</textarea><br/>
+	<input type="Submit" value="Submit with POST" />
+</form>
+
+</body>
+</html>
